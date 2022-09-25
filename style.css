@@ -1,0 +1,66 @@
+html, body{
+    height: 100%;
+}
+body {
+    margin: 0;
+
+    background: linear-gradient(45deg, #009FFF, #ec2F4B);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background: url(aston.jpg);
+    border: 2px solid royalblue;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.main {
+    width: 1000px;
+    height: 1000px;
+    background: url(Nissan-GT-R.png);
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid darkmagenta;
+    border-radius: 8px;
+}
+
+
+.item1 {
+    display: flex;
+    align-self: flex-end;
+}
+.item2 {
+    display: flex;
+    align-self: center;
+}
+.item4 {
+    display: flex;
+    align-self: center;
+}
+.item5 {
+    display: flex;
+    align-self: flex-end;
+}
